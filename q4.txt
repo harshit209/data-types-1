@@ -1,0 +1,6 @@
+question 4
+
+>>> numbers = [9,6,27,14,17,12,2,18,50]
+>>> numbers.sort()
+>>> print(numbers)
+[2, 6, 9, 12, 14, 17, 18, 27, 50]

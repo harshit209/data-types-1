@@ -1,0 +1,7 @@
+question 2
+
+>>> list2 = ['google','apple','facebook','microsoft','tesla']
+>>> list.append(list2)
+>>> print(list)
+[5, 'whiskey', 0.25, ['google', 'apple', 'facebook', 'microsoft', 
+'tesla']]

@@ -1,0 +1,11 @@
+question 3
+
+>>> list.count('whiskey')
+1
+>>> list.count(list2)
+1
+>>> list.count(0.25)
+1
+>>> print(list)
+[5, 'whiskey', 0.25, ['google', 'apple', 'facebook', 'microsoft', 
+'tesla']]

@@ -1,0 +1,22 @@
+question 6
+
+>>> stack = ["rum","vodka","whiskey"]
+>>> stack.append("wine")
+>>> stack.append("beer")
+>>> print(stack)
+['rum', 'vodka', 'whiskey', 'wine', 'beer']
+>>> print(stack.pop())
+beer
+>>> print(stack)
+['rum', 'vodka', 'whiskey', 'wine']
+>>> from collections import deque
+>>> queue = deque(["rum","vodka","whiskey"])
+>>> print(queue)
+deque(['rum', 'vodka', 'whiskey'])
+>>> queue.append("wine")
+>>> print(queue)
+deque(['rum', 'vodka', 'whiskey', 'wine'])
+>>> print(queue.popleft())
+rum
+>>> print(queue)
+deque(['vodka', 'whiskey', 'wine'])

@@ -1,0 +1,8 @@
+question 1
+
+>>> list = []
+>>> list.append(5)
+>>> list.append('whiskey')
+>>> list.append(0.25)
+>>> print(list)
+[5, 'whiskey', 0.25]
